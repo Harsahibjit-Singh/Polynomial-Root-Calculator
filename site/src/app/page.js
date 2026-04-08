@@ -27,7 +27,7 @@ export default function Home() {
       }
 
       // 3. API Call
-      const response = await fetch('http://127.0.0.1:8000/solve', {
+      const response = await fetch('https://polynomial-root-calculator.vercel.app/solve', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ coefficients }),
