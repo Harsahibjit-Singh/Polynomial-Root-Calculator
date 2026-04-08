@@ -14,11 +14,11 @@ A lightweight, high-performance FastAPI backend that calculates the roots of pol
 
 Don't want to run the server locally? The API is currently deployed and publicly accessible! You can send your requests directly to our live production server. 
 
-**Base URL:** `https://v`  
-**Live Endpoint:** `POST https://v/solve`  
-**Interactive Docs:** `https://v/docs`
+**Base URL:** `https://polynomial-root-calculator.vercel.app/`  
+**Live Endpoint:** `POST https://polynomial-root-calculator.vercel.app/solve`  
+**Interactive Docs:** `https://polynomial-root-calculator.vercel.app/docs`
 
-*Tip: If you are building a frontend, simply replace `http://127.0.0.1:8000` with `https://v` in your JavaScript `fetch` calls to connect to the live engine.*
+*Tip: If you are building a frontend, simply replace `http://127.0.0.1:8000` with `https://polynomial-root-calculator.vercel.app` in your JavaScript `fetch` calls to connect to the live engine.*
 
 ---
 
@@ -45,7 +45,7 @@ Don't want to run the server locally? The API is currently deployed and publicly
 3. **Start the server:**
     uvicorn main:app --reload
 
-The API will be available at: **https://www.google.com/search?q=http://127.0.0.1:8000**
+The API will be available at: **https://polynomial-root-calculator.vercel.app**
 
 
 ## 🔌 API Usage
